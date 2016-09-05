@@ -126,7 +126,7 @@
 
 
 - (NSString *)filePath:(NSString *)timeString {
-    timeString = @"my";
+    //timeString = @"my";
     NSString *str = [NSString stringWithFormat:@"documents/%@.png",timeString];
      NSString *filePath = [NSHomeDirectory() stringByAppendingPathComponent:str];
     if ([[NSFileManager defaultManager] fileExistsAtPath:filePath]) {
