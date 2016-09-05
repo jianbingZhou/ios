@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>时钟</title>
+            <style>
+<!--                body {-->
+<!--                    margin-top:20px;-->
+<!--                }-->
+<!--            -->
+<!--                p {-->
+<!--                    color:red;-->
+<!--                  }-->
+<!--            input {-->
+<!--                color: yellow;-->
+<!--            }-->
+            /*div {*/
+            /*color: purple;*/
+            /*}*/
+            /**/
+            /*.mydiv p {*/
+            /*color: yellow;;*/
+            /*}*/
+<!--            img {-->
+<!-- -->
+<!--            }-->
+            </style>
+            
+    </head>
+    <body id = "body" onload="startTime()">
+        <img id="image" src="1.png" width="200px" height="120px">
+        <div id="txt">
+            时钟
+        </div>
+        <div class="mydiv">
+            zzzzzzz
+            <p>
+            段落
+            </p>
+        </div>
+        <input id="put" type="button" onclick="stopTime()" value="关闭时钟"><br>
+        <p id="p">zzzz</p><br>
+        <a href="zjb://getImage">获取相册</a>
+       
+        <script>
+            
+            function changeImage(url) {
+                document.getElementById("image").src = url;
+            }
+            function  startTime() {
+                    var  today = new Date();
+                    var h = today.getHours();
+                    var m = today.getMinutes();
+                    var  s = today.getSeconds();
+                    m =  checkTime(m);
+                    s =  checkTime(s);
+                    document.getElementById("txt").innerHTML = h + ":" + m + ":" + s;
+                    t =  setTimeout("startTime()",500);
+                }
+            
+            function checkTime(x) {
+                if  (x < 10 )
+                x = "0" + x;
+                return x;
+            }
+        
+        function clikc(text) {
+            var x =  document.getElementsByClassName("mydiv")[0];
+            x.innerHTML = text;
+            x.style.color = 'red';
+        }
+            
+            //关闭时钟
+            function  stopTime() {
+                clearTimeout(t);
+                //  document.getElementById("p").innerHTML = "已经关闭了时钟";
+            }
+        </script>
+    </body>
+</html>

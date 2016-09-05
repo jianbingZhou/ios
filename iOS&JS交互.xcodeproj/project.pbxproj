@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAB352A51D6DA80E0087606B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB352A41D6DA80E0087606B /* 2.png */; };
+		AAB352A71D6EE45B0087606B /* text in Resources */ = {isa = PBXBuildFile; fileRef = AAB352A61D6EE45B0087606B /* text */; };
 		AAB4CF311D6D7D69006E5DCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CF301D6D7D69006E5DCE /* main.m */; };
 		AAB4CF341D6D7D69006E5DCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CF331D6D7D69006E5DCE /* AppDelegate.m */; };
 		AAB4CF371D6D7D69006E5DCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CF361D6D7D69006E5DCE /* ViewController.m */; };
@@ -16,6 +18,8 @@
 		AAB4CF421D6D7D69006E5DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB4CF401D6D7D69006E5DCE /* LaunchScreen.storyboard */; };
 		AAB4CF4D1D6D7D69006E5DCE /* iOS_JS__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CF4C1D6D7D69006E5DCE /* iOS_JS__Tests.m */; };
 		AAB4CF581D6D7D69006E5DCE /* iOS_JS__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4CF571D6D7D69006E5DCE /* iOS_JS__UITests.m */; };
+		AAB4CF661D6D91ED006E5DCE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AAB4CF651D6D91ED006E5DCE /* index.html */; };
+		AAB4CF681D6D9B85006E5DCE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB4CF671D6D9B85006E5DCE /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AAB352A41D6DA80E0087606B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		AAB352A61D6EE45B0087606B /* text */ = {isa = PBXFileReference; lastKnownFileType = folder; path = text; sourceTree = "<group>"; };
 		AAB4CF2C1D6D7D69006E5DCE /* iOS&JS交互.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS&JS交互.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB4CF301D6D7D69006E5DCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAB4CF321D6D7D69006E5DCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +59,8 @@
 		AAB4CF531D6D7D69006E5DCE /* iOS&JS交互UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS&JS交互UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB4CF571D6D7D69006E5DCE /* iOS_JS__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_JS__UITests.m; sourceTree = "<group>"; };
 		AAB4CF591D6D7D69006E5DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB4CF651D6D91ED006E5DCE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		AAB4CF671D6D9B85006E5DCE /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAB352AA1D6EE4820087606B /* xx */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = xx;
+			sourceTree = "<group>";
+		};
 		AAB4CF231D6D7D69006E5DCE = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +118,10 @@
 		AAB4CF2E1D6D7D69006E5DCE /* iOS&JS交互 */ = {
 			isa = PBXGroup;
 			children = (
+				AAB352AA1D6EE4820087606B /* xx */,
+				AAB352A61D6EE45B0087606B /* text */,
+				AAB352A41D6DA80E0087606B /* 2.png */,
+				AAB4CF671D6D9B85006E5DCE /* 1.png */,
 				AAB4CF321D6D7D69006E5DCE /* AppDelegate.h */,
 				AAB4CF331D6D7D69006E5DCE /* AppDelegate.m */,
 				AAB4CF351D6D7D69006E5DCE /* ViewController.h */,
@@ -113,6 +132,7 @@
 				AAB4CF431D6D7D69006E5DCE /* Info.plist */,
 				AAB4CF3B1D6D7D69006E5DCE /* iOS_JS__.xcdatamodeld */,
 				AAB4CF2F1D6D7D69006E5DCE /* Supporting Files */,
+				AAB4CF651D6D91ED006E5DCE /* index.html */,
 			);
 			path = "iOS&JS交互";
 			sourceTree = "<group>";
@@ -247,8 +267,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB4CF421D6D7D69006E5DCE /* LaunchScreen.storyboard in Resources */,
+				AAB4CF681D6D9B85006E5DCE /* 1.png in Resources */,
+				AAB4CF661D6D91ED006E5DCE /* index.html in Resources */,
+				AAB352A51D6DA80E0087606B /* 2.png in Resources */,
 				AAB4CF3F1D6D7D69006E5DCE /* Assets.xcassets in Resources */,
 				AAB4CF3A1D6D7D69006E5DCE /* Main.storyboard in Resources */,
+				AAB352A71D6EE45B0087606B /* text in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS&JS交互/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JianbingZhou.iOS-JS--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS&JS交互/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JianbingZhou.iOS-JS--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,6 +526,7 @@
 				AAB4CF5E1D6D7D69006E5DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAB4CF5F1D6D7D69006E5DCE /* Build configuration list for PBXNativeTarget "iOS&JS交互Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +535,7 @@
 				AAB4CF611D6D7D69006E5DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAB4CF621D6D7D69006E5DCE /* Build configuration list for PBXNativeTarget "iOS&JS交互UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +544,7 @@
 				AAB4CF641D6D7D69006E5DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
